@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    </link>
+    <title>Private Chat Room</title>
+</head>
+
+<body>
+    <div class = "container">
+        <div class="create-header" id = "header-name">Create A Chat Room</div>
+        <div class="sub-container name-input">
+            <label for="name-input">Username</label>
+            <input type="text" class="input-text" id="name-input" placeholder="your username"/>
+        </div>
+        <div class="sub-container room-name-input">
+            <label for="room-name-input">Room Name</label>
+            <input type="text" class="input-text" id="room-name-input" placeholder="chat room name"/>
+        </div>
+        <div class="sub-container info-input">
+            <label for="info-input">Room Description</label>
+            <input type="text" class="input-text" id="info-input" placeholder="describe this chat room"/>
+        </div>
+        <div class="sub-container color-input">
+            <label for="color-input">Room Color</label>
+            <input type="color" class="input-text" id="color-input" value="#ABA0A0"/>
+        </div>
+        <div class="sub-container button">
+            <button id="create-button">Create</button>
+        </div>
+        
+    </div>
+
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

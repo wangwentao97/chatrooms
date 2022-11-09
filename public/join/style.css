@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(131, 222, 82);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sub-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+label{
+    margin-right: 5px;
+}
